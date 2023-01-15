@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    position: relative;
+    background-color: #FF900E1A;
+    padding:0 240px; 
+    
+}
+
+/*header style*/
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+   
+}
+
+
+.header-titel{
+    display: flex;
+    gap: 30px;
+    
+    
+}
+.header-titel{
+    font-size: 20px;
+    font-weight: 500;
+}
+..header-tite a{
+    text-decoration: none;
+    background: #424242;
+
+}
+.header-container{
+
+    
+        text-align:center;
+        padding-bottom: 50px;
+        
+}
+.header-items{
+    text-align: center;
+    padding: 45px;
+}
+.text{
+    text-align: center;
+}
+.buttom-primary{
+    border-style: none;
+    border-radius: 5px;
+    background-color: chocolate;
+    color: aliceblue;
+    width: 213px;
+    height: 49px;
+    font-size: 24px;
+    margin-top: 30px;
+}
+   
+
+
+/*main style*/
+.images-container{
+    display: flex;
+    gap: 40px;
+    margin:50px 0;
+
+
+}
+.contiainer-img{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+gap:24px;
+}
+
+.images-items{
+    font-size: 25px;
+    font-weight: 500;
+    padding-top:200px;
+
+
+}
+
+.images-title .part-2{
+    color: #131313;
+    font: size 500px;;
+}
+.images-title .part-3{
+    
+color: #FF900E;
+}
+.images-info{
+    margin: 24px 0 32px 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+ /*features-container*/
+.features-container{
+    display: flex;
+
+}
+.fetures-titel{
+    border-left:5px solid #FF900E;
+    padding-left:20px;
+    font-size: 45px;
+}
+.fetures-items{
+    font-size: 16px;
+}
+.feture-banner .buttom-primary{
+    width: 260px;
+    height: 110px;
+    position: relative;
+    top: -123px;
+    right:290px;
+    width: 200px;
+}
+   /*feture-banner*/
+.feture-banner{
+
+} 
+.box-container{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.box{
+    border: 2px solid #FF900E;
+    height: 200px;
+    width: 200px;
+    margin-top:80px;
+}
+.some-facts{
+    font-size: 45px;
+    left:50px;
+}
+.feture-banner{
+    text-align: center;
+    margin-top: 200px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    margin-top:60px;
+}
+.footer{
+    margin-top: 120px;
+    text-align: center;
+    padding:80px ;
+    border: 80 solid #727272;
+    background-color: #FFF4E7;
+}
