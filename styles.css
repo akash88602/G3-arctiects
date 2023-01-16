@@ -28,7 +28,7 @@ header{
     font-size: 20px;
     font-weight: 500;
 }
-..header-tite a{
+.header-tite a{
     text-decoration: none;
     background: #424242;
 
@@ -61,10 +61,15 @@ header{
 
 
 /*main style*/
+main{
+    /* padding: 0 240px; */
+}
 .images-container{
     display: flex;
     gap: 40px;
     margin:50px 0;
+    padding: 0 240px;
+    
 
 
 }
@@ -99,6 +104,9 @@ color: #FF900E;
  /*features-container*/
 .features-container{
     display: flex;
+    padding: 0 240px;
+    width: 963px;
+    
 
 
 }
@@ -129,6 +137,7 @@ color: #FF900E;
 }
    /*feture-banner*/
 .feture-banner{
+    padding: 0 240px;
 
 } 
 .box-container{
@@ -172,5 +181,23 @@ color: #FF900E;
     border-radius: 8px;
     font-size: 16px;
     margin: 149px 178px 197px 302px;
+
+}
+/*--------Media Querlos---------*/
+/*-------Mobile Devices---------*/
+@media  only screen and (max-wight: 688px;) {
+    header, .header-banner{
+        width: 100%;
+    }
+    .nav-bar{
+       flex-direction: column; 
+    }
+    .contiainer-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+  .footer, main{
+    display: none;
+ }
 
 }
