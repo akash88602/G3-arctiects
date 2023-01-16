@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
 }
-body{
+header{
     position: relative;
     background-color: #FF900E1A;
     padding:0 240px; 
@@ -100,6 +100,16 @@ color: #FF900E;
 .features-container{
     display: flex;
 
+
+}
+.features{
+    margin-top: 150px;
+}
+.articles{
+    margin-top: 45px;
+}
+.article-title{
+    margin-top: 50px;
 }
 .fetures-titel{
     border-left:5px solid #FF900E;
@@ -139,16 +149,28 @@ color: #FF900E;
 .feture-banner{
     text-align: center;
     margin-top: 200px;
+    
 }
 .sponsors{
     display: flex;
     justify-content: space-between;
     margin-top:60px;
 }
+.box{
+    text-align: center;
+}
 .footer{
     margin-top: 120px;
     text-align: center;
-    padding:80px ;
-    border: 80 solid #727272;
+   
+    border: 5px solid #727272;
     background-color: #FFF4E7;
+    height: 100px;
+    width: 1440px;
+    left: 302px;
+    top: 4463px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 149px 178px 197px 302px;
+
 }
