@@ -187,10 +187,11 @@ color: #FF900E;
 /*--------Media Querlos---------*/
 /*-------Mobile Devices---------*/
 @media only screen and (max-width: 668px){
-    header, .images-container, .features-container, .buttom-primary, .feture-banner{
+    header, .images-container, .features-container, .buttom-primary, .feture-banner, .footer{
         padding: 0px;
     }
-    .nav-bar, .header-titel, .features-container, .box-container,{
+    
+    .nav-bar, .header-titel, .features-container, .box-container, .sponsors{
         flex-direction: column;
     }
     .header-banner img{
@@ -200,11 +201,19 @@ color: #FF900E;
         grid-template-columns:repeat(1, 1fr) ;
         padding: 0px;
     }
-    .images-container{
+    .images-container,
+        .images-container{
         flex-direction: column;
     }
     .feture-banner0 img{
         width: 100%;
     }
+    .features-container{
+        flex-direction: column;
+    }
+    .sponsors{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr );
 
+    }
 }
