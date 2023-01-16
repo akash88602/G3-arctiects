@@ -138,6 +138,7 @@ color: #FF900E;
    /*feture-banner*/
 .feture-banner{
     padding: 0 240px;
+    
 
 } 
 .box-container{
@@ -185,19 +186,25 @@ color: #FF900E;
 }
 /*--------Media Querlos---------*/
 /*-------Mobile Devices---------*/
-@media  only screen and (max-wight: 688px;) {
-    header, .header-banner{
+@media only screen and (max-width: 668px){
+    header, .images-container, .features-container, .buttom-primary, .feture-banner{
+        padding: 0px;
+    }
+    .nav-bar, .header-titel, .features-container, .box-container,{
+        flex-direction: column;
+    }
+    .header-banner img{
         width: 100%;
     }
-    .nav-bar{
-       flex-direction: column; 
-    }
     .contiainer-img{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns:repeat(1, 1fr) ;
+        padding: 0px;
     }
-
-  .footer, main{
-    display: none;
- }
+    .images-container{
+        flex-direction: column;
+    }
+    .feture-banner0 img{
+        width: 100%;
+    }
 
 }
